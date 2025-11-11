@@ -1,8 +1,9 @@
 import styles, { styled } from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const Aside = styles.aside`
   padding: 16px;
-  background-color: #eee;
+  background-color: ${variaveis.cloud};
   height: 100vh;
 `
 export const Filtros = styles.div`
